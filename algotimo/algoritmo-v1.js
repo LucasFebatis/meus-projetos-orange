@@ -8,4 +8,6 @@ for (let i = 0; i < listaDeCompras.length; i++) {
   // Texto + Expressão Mátematica + texto + variável (item da lista sendo acessado via indice) + texto
 }
 
-console.log("Passo " + (listaDeCompras.length + 2) + ": Ir para o caixa");
+console.log("Passo " + (listaDeCompras.length + 2) + ": Ir para o caixa - agora são " + listaDeCompras.length + " itens no carrinho");
+
+console.log("Programa finalizado! Boa refeição!");
